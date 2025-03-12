@@ -5,7 +5,7 @@ parser.add_argument('--seed', default=234, type=int)
 
 parser.add_argument('--embed-dim', default=512, type=int)
 parser.add_argument('--visual-length', default=256, type=int)
-parser.add_argument('--visual-width', default=1024, type=int)
+parser.add_argument('--visual-width', default=512, type=int)
 parser.add_argument('--visual-head', default=1, type=int)
 parser.add_argument('--visual-layers', default=2, type=int)
 parser.add_argument('--attn-window', default=8, type=int)
